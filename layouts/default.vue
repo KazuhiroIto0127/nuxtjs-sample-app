@@ -1,6 +1,5 @@
 <template>
   <div>
-    <AppHeader />
     <header>
       <nav>
         <ul>
@@ -11,7 +10,7 @@
         </ul>
       </nav>
     </header>
+    <NumberCounterBtn />
     <slot />
-    <AppFooter />
   </div>
 </template>
